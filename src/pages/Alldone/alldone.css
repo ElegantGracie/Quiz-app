@@ -1,0 +1,43 @@
+.alldone {
+    width: 50%;
+    height: 500px;
+    border: 2px solid lightgrey;
+    margin: 80px auto;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px lightgrey;
+}
+
+.alldone-details {
+    margin: 100px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.alldone-h1 h1 {
+    margin-bottom:30px;
+}
+
+.alldone-form {
+    display: flex;
+}
+
+.alldone-form label {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.alldone-form input {
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(95, 94, 94);
+    padding: 10px;
+}
+
+
+.alldone-form input[type=submit] {
+    background-color: #218380;
+    color:#fff ;
+    cursor: pointer;
+}

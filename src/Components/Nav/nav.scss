@@ -1,0 +1,25 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.position {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: end;
+  margin-top: -40px;
+}
+.customnav {
+  background-color: #218380;
+}
+.customitems {
+  background-color: #ffffff;
+}
+.custom-nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
