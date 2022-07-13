@@ -5,7 +5,7 @@ const Alldone = () => {
   return (
     <div className='alldone'>
       <div className='alldone-details'>
-        <div className='alldone-h1'><h1>All done!</h1></div>
+        <div className='alldone-h1'><h1>All done! </h1></div>
         <div alldone-h><h4>Your final score is <span>9.</span></h4></div>
         <div className='alldone-form'>
           <form>
